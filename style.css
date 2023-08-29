@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  min-height: 100vh;
+}
+.container {
+  max-width: 650px;
+  border-radius: 8px;
+  width: 390px;
+  border: 0.2px solid gray;
+  background: #c1c1c1;
+  padding: 20px;
+  height: 15.2rem;
+}
+.title {
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Tempratur-icon {
+  font-size: 40px;
+  color: blue;
+}
+h1 {
+  color: black;
+  letter-spacing: 1.4px;
+  font-size: 30px;
+}
+#celsius #Fahrenheit #Kelvin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  position: relative;
+}
+input {
+  flex: 5;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 550;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  outline: 1px solid black;
+  border-radius: 8px 0 0 8px;
+  padding: 0 10px;
+}
+.icon {
+  position: absolute;
+  background: gold;
+  color: white;
+  height: 60px;
+  width: 45px;
+  font-weight: 600;
+  outline: 1px solid black;
+  text-align: center;
+  padding: 16px 0px;
+  border-radius: 0 10px 10px 0px;
+}
+.clear {
+  margin: 10px auto;
+  position: absolute;
+  border: 0.3px solid black;
+  background: #ff5959;
+  font-weight: 600;
+  font-size: initial;
+  padding: 5px;
+  outline: none;
+  display: block;
+  border-radius: 9px;
+  color: snow;
+  text-align: center;
+  scale: 0.8;
+  transition: 0.3s;
+}
+.clear:hover {
+  border: none;
+  color: black;
+  outline: none;
+  background: #ffd062;
+  scale: 1;
+}
+
+.tpng img {
+  mix-blend-mode: darken;
+  filter: contrast(1.1);
+  position: absolute;
+  top: 120px;
+  right: 30px;
+}
+.tpng2 img {
+  mix-blend-mode: darken;
+  filter: contrast(1.1);
+  position: absolute;
+  filter: hue-rotate(218deg);
+  top: 120px;
+  left: 30px;
+}
